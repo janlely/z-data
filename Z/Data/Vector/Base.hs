@@ -101,7 +101,7 @@ import qualified Data.List                      as List
 import           Data.List.NonEmpty       (NonEmpty ((:|)))
 import           Data.Maybe
 import qualified Data.CaseInsensitive           as CI
-import           Data.Primitive
+import           Data.Primitive                 hiding (copyPtrToMutablePrimArray)
 import           Data.Semigroup                 (Semigroup (..))
 import qualified Data.Traversable               as T
 import           Foreign.C

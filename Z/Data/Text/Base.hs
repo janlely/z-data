@@ -131,7 +131,7 @@ import qualified Data.CaseInsensitive      as CI
 import           Data.Foldable             (foldlM)
 import           Data.Hashable             (Hashable(..))
 import qualified Data.List                 as List
-import           Data.Primitive.PrimArray
+import           Data.Primitive.PrimArray  hiding (copyPtrToMutablePrimArray)
 import           Data.Typeable
 import           Data.Int
 import           Data.Word
